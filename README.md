@@ -7,13 +7,11 @@ fnordmetric plugin for fluent Event Collector
 
 
 # Getting Started
-Setup the fnordmetric onput:
+Setup the fnordmetric output:
 
 ~~~~~
-  <target test.*>
+  <match test.*>
     type fnordmetric
-    host localhost
-    port 4242
-  </target>
+  </match>
 ~~~~~
 
