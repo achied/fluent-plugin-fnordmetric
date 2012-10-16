@@ -10,8 +10,12 @@ fnordmetric plugin for fluent Event Collector
 Setup the fnordmetric output:
 
 ~~~~~
-  <match test.*>
+  <match fnordmetric.*>
     type fnordmetric
+    redis_url redis://localhost:6379
+    redis_prefix fnordmetric
+    event_queue_ttl 120
+    event_data_ttl 2592000
   </match>
 ~~~~~
 

@@ -19,5 +19,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "fnordmetric", "1.0.0"
   
   gem.add_development_dependency "rake", ">= 0.9.2"
-  gem.add_development_dependency "rr", ">= 1.0.0"
+  gem.add_development_dependency "mock_redis"
 end
