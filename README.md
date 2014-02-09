@@ -1,4 +1,4 @@
-fluent-plugin-fnordmetric
+fluent-plugin-fnordmetric, a plugin for [Fluentd](http://fluentd.org)
 =========================
 
 fnordmetric plugin for fluent Event Collector
